@@ -1,6 +1,6 @@
 # Data processing project using Riot's REST API
 ## Libraries used
-  requests
+  [requests v2.26.0](https://docs.python-requests.org/en/master/)
     
     
 ## Todo
