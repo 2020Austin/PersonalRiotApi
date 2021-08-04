@@ -16,6 +16,7 @@
     
 ## Todo
   - Create local file database to store relevant match data
+  - Use Riot Data Dragon jsons to parse
   - Visualization
   - User-input mode
   - Readme program outline
