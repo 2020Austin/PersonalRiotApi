@@ -15,9 +15,10 @@
     
     
 ## Todo
-  - Create local file database to store relevant match data
+  - Create local file database to store relevant match data (csv?)
   - [Use Riot Data Dragon jsons to parse](https://developer.riotgames.com/docs/lol#data-dragon)
   - Visualization
   - User-input mode
   - Readme program outline
+  - local-run script
   
