@@ -6,6 +6,12 @@
 
 ## Libraries used
   [requests v2.26.0](https://docs.python-requests.org/en/master/)
+  
+ possible:
+  - numpy
+  - pandas (dataframes)
+  - datapane
+  - seaborn/plotly
     
     
 ## Todo
