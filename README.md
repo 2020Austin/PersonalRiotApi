@@ -1,4 +1,4 @@
-# Data processing project using Riot's REST API
+# Data processing project using Riot's API
 
 ## Riot Games API
 [Riot API Developer Portal](https://developer.riotgames.com/apis)
