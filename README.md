@@ -18,4 +18,5 @@
   - Create local file database to store relevant match data
   - Visualization
   - User-input mode
+  - Readme program outline
   
