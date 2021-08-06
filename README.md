@@ -24,3 +24,7 @@
   - Readme program outline
   - local-run script
   
+  
+  - learn more about git
+  - virtual env in vscode
+  - run py script w/ console or directly
