@@ -5,9 +5,12 @@
   - Personal note: rate limit 20 requests every 1 seconds, 100 requests every 2 minutes
 
 ## Libraries used
-  - [requests v2.26.0](https://docs.python-requests.org/en/master/)
+  - [requests (v2.26.0)](https://docs.python-requests.org/en/master/)
+  - [pandas (v1.3.1)](https://pandas.pydata.org/)
   - csv
   - time
+  - os
+  - glob
   
  possible:
   - numpy
