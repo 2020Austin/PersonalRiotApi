@@ -5,9 +5,9 @@
   - Personal note: rate limit 20 requests every 1 seconds, 100 requests every 2 minutes
 
 ## Libraries used
-  [requests v2.26.0](https://docs.python-requests.org/en/master/)
-  csv
-  time
+  - [requests v2.26.0](https://docs.python-requests.org/en/master/)
+  - csv
+  - time
   
  possible:
   - numpy
