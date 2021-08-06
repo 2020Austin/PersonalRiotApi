@@ -6,6 +6,8 @@
 
 ## Libraries used
   [requests v2.26.0](https://docs.python-requests.org/en/master/)
+  csv
+  time
   
  possible:
   - numpy
