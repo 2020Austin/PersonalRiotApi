@@ -28,7 +28,6 @@
   - local-run script
   
  
-## other todo 
-  - learn more about git
-  - virtual env in vscode
-  - run py script w/ console or directly
+## specific todo
+  - make merger only run if >1 file created
+  - 
