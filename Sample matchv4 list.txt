@@ -1,0 +1,1007 @@
+{
+    "matches": [
+        {
+            "platformId": "NA1",
+            "gameId": 4001987468,
+            "champion": 54,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628233057985,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4001867585,
+            "champion": 360,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628224320738,
+            "role": "DUO_CARRY",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4001863774,
+            "champion": 360,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628222768622,
+            "role": "DUO",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4001824359,
+            "champion": 82,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628221952500,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4001749722,
+            "champion": 82,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628220076173,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4001670678,
+            "champion": 37,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628212500015,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000887777,
+            "champion": 51,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628135522821,
+            "role": "DUO_CARRY",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000875795,
+            "champion": 45,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628134014777,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000872601,
+            "champion": 161,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628132825932,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000788908,
+            "champion": 20,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628131395630,
+            "role": "SOLO",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000785671,
+            "champion": 5,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628130178891,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000752365,
+            "champion": 420,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628128580983,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000718489,
+            "champion": 58,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628127419863,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 4000705264,
+            "champion": 887,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628125845693,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3999391938,
+            "champion": 54,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1628031959434,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3998188630,
+            "champion": 555,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627932044515,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3996154303,
+            "champion": 68,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627777604924,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3996141805,
+            "champion": 98,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627776182160,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3996079313,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627774877684,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3996121689,
+            "champion": 15,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627771993207,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3994485789,
+            "champion": 121,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627631888866,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3994523313,
+            "champion": 122,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627631019503,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3994473228,
+            "champion": 202,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627629972870,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3994480831,
+            "champion": 82,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627628555226,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3993287401,
+            "champion": 81,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627541045406,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3993323264,
+            "champion": 117,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627539831565,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3993302058,
+            "champion": 157,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627538462614,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3991915891,
+            "champion": 16,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627432834882,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3991118529,
+            "champion": 84,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627373428429,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3991116978,
+            "champion": 27,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627372219498,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3991143700,
+            "champion": 360,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627370599113,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3991122301,
+            "champion": 84,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627369236537,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3990642663,
+            "champion": 21,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627339121103,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3990589191,
+            "champion": 84,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627337473274,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3990558001,
+            "champion": 150,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627336262529,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3989997112,
+            "champion": 16,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627275517195,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3989974654,
+            "champion": 54,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627274322452,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3989792087,
+            "champion": 114,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627262363161,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3988675649,
+            "champion": 18,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1627189077956,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3962780567,
+            "champion": 15,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1625120562935,
+            "role": "DUO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955092563,
+            "champion": 29,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624571411010,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955100103,
+            "champion": 498,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624570267156,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955057548,
+            "champion": 54,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624568864571,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955035230,
+            "champion": 161,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624567454877,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955032533,
+            "champion": 67,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624565867828,
+            "role": "SOLO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955050461,
+            "champion": 24,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624564641188,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3954977524,
+            "champion": 10,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624562779117,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3955015332,
+            "champion": 121,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624561372376,
+            "role": "SOLO",
+            "lane": "BOTTOM"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3952362471,
+            "champion": 89,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624349140999,
+            "role": "SOLO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3952380413,
+            "champion": 111,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624347684582,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3951293175,
+            "champion": 497,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624259004146,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3950596036,
+            "champion": 875,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624230820073,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3950534075,
+            "champion": 154,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624229296745,
+            "role": "SOLO",
+            "lane": "BOTTOM"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3949924334,
+            "champion": 17,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1624166076247,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3946815572,
+            "champion": 223,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623909801875,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3946208187,
+            "champion": 122,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623873996867,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3945505263,
+            "champion": 420,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623823791148,
+            "role": "SOLO",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3945359412,
+            "champion": 555,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623816645444,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3945332673,
+            "champion": 67,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623811107287,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3945320427,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623810157276,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3943315480,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623648082828,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3938489975,
+            "champion": 84,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623282253562,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3935999110,
+            "champion": 10,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623114000297,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3935977955,
+            "champion": 141,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623112986520,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3935993509,
+            "champion": 5,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1623111759010,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3922592899,
+            "champion": 21,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622158701105,
+            "role": "DUO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3922560660,
+            "champion": 157,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622157611830,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3922487719,
+            "champion": 31,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622156293112,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3922514282,
+            "champion": 96,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622154845966,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3922480081,
+            "champion": 82,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622152763803,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3921535824,
+            "champion": 19,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622073322930,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3921512631,
+            "champion": 777,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622071798572,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3920686605,
+            "champion": 555,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1622014682318,
+            "role": "SOLO",
+            "lane": "BOTTOM"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3919671295,
+            "champion": 22,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1621928340941,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3919660088,
+            "champion": 67,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1621927116111,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3903590235,
+            "champion": 875,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620809890265,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3903518686,
+            "champion": 202,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620808681946,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3903371804,
+            "champion": 412,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620799216283,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3901745963,
+            "champion": 9,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620693975874,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3901743214,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620692951181,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3901383427,
+            "champion": 106,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620670955108,
+            "role": "SOLO",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3901258252,
+            "champion": 81,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620667530435,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3901266447,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620666340156,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900747933,
+            "champion": 111,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620627352375,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900755595,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620626332504,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900742177,
+            "champion": 238,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620624709111,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900668298,
+            "champion": 22,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620622956995,
+            "role": "DUO_SUPPORT",
+            "lane": "BOTTOM"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900646068,
+            "champion": 117,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620621970908,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3900653372,
+            "champion": 875,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620621033080,
+            "role": "DUO",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3896229796,
+            "champion": 777,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620337559306,
+            "role": "DUO_SUPPORT",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3894098642,
+            "champion": 412,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1620184598536,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3882273160,
+            "champion": 75,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619471637493,
+            "role": "DUO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3882232734,
+            "champion": 11,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619470517457,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3882240515,
+            "champion": 147,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619469464275,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3879215154,
+            "champion": 21,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619246361645,
+            "role": "DUO",
+            "lane": "MID"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3876499461,
+            "champion": 202,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619068326189,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3876496071,
+            "champion": 50,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1619066986664,
+            "role": "DUO_SUPPORT",
+            "lane": "NONE"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3851271020,
+            "champion": 31,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1617405420250,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3850118337,
+            "champion": 150,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1617332292703,
+            "role": "SOLO",
+            "lane": "TOP"
+        },
+        {
+            "platformId": "NA1",
+            "gameId": 3846373576,
+            "champion": 238,
+            "queue": 450,
+            "season": 13,
+            "timestamp": 1617075316062,
+            "role": "DUO_SUPPORT",
+            "lane": "TOP"
+        }
+    ],
+    "startIndex": 0,
+    "endIndex": 100,
+    "totalGames": 381
+}
