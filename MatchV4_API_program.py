@@ -6,21 +6,21 @@ import os
 import glob
 
 '''
-Working Riot API matchV5 data requests + local database creation
+Working Riot API matchV4 data requests + local database creation
+API endpoint stops working 8/23/2021
 '''
 
-current_key = "RGAPI-d39c6a6d-1a35-4a59-9746-a151f8a883c7"
+CURRENT_KEY = "RGAPI-86f1c62a-f290-4d63-9c0e-c218771831f1"
 
-database_file_path = "D:/Dev/Riot Api/Database/" #global variable to set where database files are created
+DATABASE_FILE_PATH = "D:/Dev/Riot Api/Database/" #global variable to set where database files are created
 
 #Request batch of match history ids 
 def get_matchlist(accountid, queue, start="0"):
     #450 = aram
-    req_url = f"https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/{accountid}?queue={queue}&beginIndex={start}&api_key={current_key}"
+    req_url = f"https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/{accountid}?queue={queue}&beginIndex={start}&api_key={CURRENT_KEY}"
     list_of_ids = []
    
     matchlist_response = requests.get(req_url).json()
-    #TODO need to filter out only matchids
 
     for matchdata in matchlist_response["matches"]:
         list_of_ids.append(matchdata["gameId"])
@@ -30,7 +30,7 @@ def get_matchlist(accountid, queue, start="0"):
 
 #Cache one match as json
 def cache_specific_match(matchid):
-    req_url = f"https://na1.api.riotgames.com/lol/match/v4/matches/{matchid}?api_key={current_key}"
+    req_url = f"https://na1.api.riotgames.com/lol/match/v4/matches/{matchid}?api_key={CURRENT_KEY}"
     return requests.get(req_url).json()
     
 
@@ -43,9 +43,9 @@ def get_participantid(json, accountid):
 
 #csv creator
 def database_create(filename):
-    with open(database_file_path + filename + ".csv", "w", newline='') as file:
+    with open(DATABASE_FILE_PATH + filename + ".csv", "w", newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["Side", "Win", "Champion", "KDA", "LongestLifetime", "Length", "Starttime"])
+        writer.writerow(["Side", "Win", "Champion", "KDA", "CS", "LongestLifetime", "Length", "Starttime"])
 
 #csv appender
 def database_match_recorder(filename, playerpos, json):
@@ -68,6 +68,9 @@ def database_match_recorder(filename, playerpos, json):
     #KDA
     kda = str(json["participants"][playerpos]["stats"]["kills"]) + "-" + str(json["participants"][playerpos]["stats"]["deaths"]) + "-" + str(json["participants"][playerpos]["stats"]["assists"])
 
+    #CS
+    cs = json["participants"][playerpos]["stats"]["totalMinionsKilled"]
+
     #longestliving
     longestliving = json["participants"][playerpos]["stats"]["longestTimeSpentLiving"]
 
@@ -78,19 +81,19 @@ def database_match_recorder(filename, playerpos, json):
     starttime = json["gameCreation"] 
 
 
-    with open(database_file_path + filename + ".csv", 'a', newline='') as file:
+    with open(DATABASE_FILE_PATH + filename + ".csv", 'a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow([side, win, champion, kda, longestliving, gamelength, starttime])
+        writer.writerow([side, win, champion, kda, cs, longestliving, gamelength, starttime])
 
 
 def merge_databases(filenames):
     '''
     param filename (str): "Summonername queueid"
     '''
-    files_to_merge = glob.glob(os.path.join(database_file_path, f"{filenames}*.csv"))
+    files_to_merge = glob.glob(os.path.join(DATABASE_FILE_PATH, f"{filenames}*.csv"))
     read_files = (pandas.read_csv(f, sep=',') for f in files_to_merge)
     merged_data = pandas.concat(read_files, ignore_index=True)
-    merged_data.to_csv( f"{database_file_path}{filenames}_merged.csv")
+    merged_data.to_csv( f"{DATABASE_FILE_PATH}{filenames}_merged.csv")
     
 
 
@@ -100,11 +103,16 @@ def main(number_to_analyze, mode, currentaccid):
     batch_size = 100
     run_count = number_to_analyze//batch_size
 
-    for _ in range(run_count):
-        current_start_index = str(_ * batch_size)
+    for run in range(run_count):
+        current_start_index = str(run * batch_size)
         database_create(player_name + f" {mode} " + current_start_index)
 
         current_matchlist = get_matchlist(currentaccid, mode, current_start_index)
+
+        if not current_matchlist: #if matchlist empty, exit the loop and end the data fetching 
+            print("matchlist returned no results: exiting loop")
+            break
+
         
 
         for count, matchid in enumerate(current_matchlist):
@@ -117,17 +125,20 @@ def main(number_to_analyze, mode, currentaccid):
             database_match_recorder(player_name + f" {mode} " + current_start_index, match_playerpos, working_json)
             print("analyzing match " + str(count) + "/" + f"{batch_size}")
 
-        print("batch function run complete: " + str(_ + 1) + "/" + str(run_count))
+        print("batch function run complete: " + str(run + 1) + "/" + str(run_count))
         print("waiting 120 seconds")
         time.sleep(120)
 
 if __name__ == "__main__":
 
     #Request Summoner info
-    player_name = "Piece of Cabbage" #global variable
-    queue_to_analyze = "450"
+    player_name = "InfinityCloud" #global variable
+    queue_to_analyze = "400"
 
-    api_url = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + player_name + "?api_key=" + current_key
+    try:
+        api_url = f"https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/{player_name}?api_key={CURRENT_KEY}"
+    except:
+        print("api fetch failed - check key expiration time")
 
     riot_response = requests.get(api_url)
     json_response = riot_response.json()
@@ -143,6 +154,6 @@ if __name__ == "__main__":
     Clash: 700
     '''
 
-    main(100, queue_to_analyze, current_accountid)
+    main(5000, queue_to_analyze, current_accountid)
     merge_databases(f"{player_name} {queue_to_analyze}")
     print("program finished")
