@@ -1,5 +1,8 @@
 # Python data processing project w/ Riot API
 
+## Description
+Use the Riot API to pull data about players into a local database. Use python to do statistical analysis and data visualization 
+
 ## Riot Games API
 [Riot API Developer Portal](https://developer.riotgames.com/apis)
   - Personal note: rate limit 20 requests every 1 seconds, 100 requests every 2 minutes
@@ -17,6 +20,7 @@
   - pandas (dataframes)
   - datapane
   - seaborn/plotly
+  - SQLite
     
     
 ## Todo
