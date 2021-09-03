@@ -2,6 +2,7 @@
 
 ## Description
 Use the Riot API to pull data about players into a local database
+
 Use python to do statistical analysis and data visualization 
 
 ## Riot Games API
