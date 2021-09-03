@@ -20,14 +20,14 @@
     
     
 ## Todo
-  - Create local file database to store relevant match data (csv?)
+  - x Create local file database to store relevant match data (csv?)
   - [Use Riot Data Dragon jsons to parse](https://developer.riotgames.com/docs/lol#data-dragon)
   - Visualization
   - User-input mode
-  - Readme program outline
-  - local-run script
+  - x Readme program outline
+  - x local-run script
   
  
 ## specific todo
-  - make merger only run if >1 file created
+  - x make merger only run if >1 file created
   - 
